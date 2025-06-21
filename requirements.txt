@@ -1,3 +1,4 @@
 obspy
 influxdb-client
 pyyaml
+jsonschema
