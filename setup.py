@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
     name="seismic_streamer",
@@ -24,5 +24,5 @@ setup(
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",  # Adjust if you use another license
     ],
-    python_requires='>=3.7',
+    python_requires=">=3.7",
 )
