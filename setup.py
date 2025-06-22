@@ -9,6 +9,7 @@ setup(
     url="https://github.com/timkomate/seismic_streamer",
     packages=find_packages(),
     include_package_data=True,
+    license="MIT",
     install_requires=[
         "obspy",
         "influxdb-client",
