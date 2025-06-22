@@ -6,14 +6,13 @@
 
 ## Overview
 
-```
-[SeedLink Server] → [Seismic Streamer] → [InfluxDB] → [Grafana or other tools]
-```
+## Architecture
+
+![Seismic pipeline](docs/architecture.png)
 
 - **SeedLink Client:** Connects to remote SeedLink servers and receives miniSEED data packets.
 - **Processor:** Parses seismic traces and formats them for storage.
 - **InfluxDB Writer:** Writes time-series points to InfluxDB (v2.x).
-- **Grafana:** Visualize the seismic data in dashboards.
 
 ---
 
